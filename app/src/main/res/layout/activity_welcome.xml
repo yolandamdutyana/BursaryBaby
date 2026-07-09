@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Email Field -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text" />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableStart="@android:drawable/ic_lock_lock"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@color/holo_orange_dark"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_button"/>
+
+    <!-- Login with Google -->
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Google"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <!-- Login with Facebook -->
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Facebook"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <!-- Login with Microsoft -->
+    <Button
+        android:id="@+id/btnMicrosoft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Microsoft"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <!-- Register Text -->
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:paintFlags="underline"
+        android:text="Register"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold" />
+</LinearLayout>

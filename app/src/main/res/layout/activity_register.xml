@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Surname field -->
+        <EditText
+            android:id="@+id/etSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Surname"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Username (optional) -->
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username (Optional)"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!--confirm email address -->
+        <Button
+            android:id="@+id/btnConfirmEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm email"
+            android:padding="16dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="20dp"
+            />
+        <!-- Cellphone -->
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cellphone Number"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!--confirm phone number -->
+        <Button
+            android:id="@+id/btnConfirmNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm email"
+            android:padding="16dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Confirm Password -->
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="16dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
