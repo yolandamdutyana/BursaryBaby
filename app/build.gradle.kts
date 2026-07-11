@@ -5,7 +5,6 @@ plugins {
     id("com.google.gms.google-services") // Firebase services
     id("com.google.firebase.crashlytics") // Optional: crash reporting
 
-
 }
 
 android {
@@ -57,10 +56,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation("com.google.firebase:firebase-auth:22.3.1")  //connecting to firebase
+    implementation("com.google.firebase:firebase-auth")  //connecting to firebase
     implementation(platform("com.google.firebase:firebase-bom:34.1.0")) //manages versions
     implementation("com.google.firebase:firebase-analytics")  //access to analytics
     implementation("com.google.firebase:firebase-database")  //access to the database?
+    implementation("com.google.android.gms:play-services-auth")  //instructs Gradle to download and include gooogles authentication library else app wont be able to communicate w googles signin services
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

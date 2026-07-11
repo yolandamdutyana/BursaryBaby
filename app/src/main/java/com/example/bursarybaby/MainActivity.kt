@@ -18,10 +18,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            BursaryBabyTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+            BursaryBabyTheme { //Material 3 theme..design & style guide
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->  //Material 3 layout component...how everything is laid out
                     Greeting(
-                        name = "Android",
+                        name = "Android",  //Empty Activity
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
