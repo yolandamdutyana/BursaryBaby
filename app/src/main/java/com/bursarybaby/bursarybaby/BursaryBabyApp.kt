@@ -1,4 +1,4 @@
-package com.example.bursarybaby
+package com.bursarybaby.bursarybaby
 
 import android.app.Application
 import android.util.Log

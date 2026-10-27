@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bursarybaby"
+    namespace = "com.bursarybaby.bursarybaby"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.bursarybaby"
+        applicationId = "com.bursarybaby.bursarybaby"
         minSdk = 23
         targetSdk = 36
         versionCode = 1
@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation("androidx.compose.material:material-icons-extended")
     implementation("com.google.firebase:firebase-auth")  //connecting to firebase
     implementation(platform("com.google.firebase:firebase-bom:34.1.0")) //manages versions
     implementation("com.google.firebase:firebase-analytics")  //access to analytics

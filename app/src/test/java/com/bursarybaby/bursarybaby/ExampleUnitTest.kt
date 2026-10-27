@@ -1,4 +1,4 @@
-package com.example.bursarybaby
+package com.bursarybaby.bursarybaby
 
 import org.junit.Test
 

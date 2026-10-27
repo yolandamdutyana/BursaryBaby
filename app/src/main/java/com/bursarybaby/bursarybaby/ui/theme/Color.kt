@@ -1,4 +1,4 @@
-package com.example.bursarybaby.ui.theme
+package com.bursarybaby.bursarybaby.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
